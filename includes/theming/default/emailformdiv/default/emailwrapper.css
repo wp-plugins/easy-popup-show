@@ -1,0 +1,9 @@
+#email_form {
+background: #ffffff !important;
+padding: 10px !important;
+-moz-box-shadow: 0 3px 2px #eeeeee, 0 0 10px 10px #eeeeee inset !important;
+-webkit-box-shadow: 0 3px 2px #eeeeee, 0 0 10px 10px #eeeeee inset !important;
+box-shadow: 0 3px 2px #eeeeee, 0 0 10px 10px #eeeeee inset !important;
+line-height:18px !important;
+font-size: 0 !important;
+}

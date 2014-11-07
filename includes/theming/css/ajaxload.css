@@ -1,0 +1,28 @@
+.loading {
+display: none;
+position: fixed;
+margin: auto;
+top: 0; bottom:0; left: 0; right:0;
+/* z-index:99999;
+background: #ffffff; */
+	/* display: none; */
+/* background: #ffffff;
+	position: fixed;
+	padding: 10px;
+	background: #ffffff;
+	z-index:99999;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-opacity: .7;
+	opacity: 0.70;
+	filter: alpha(opacity=70);
+	box-sizing: initial !important; */
+}
+
+.loading img {
+	z-index:99999;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

@@ -1,0 +1,136 @@
+label, input[type='text'], select, textarea {
+width: 250px !important;
+display: inline-block;
+}
+
+input[type='text'], textarea {
+background: #eeeeee;
+font-size: 11px;
+text-align: justify;
+}
+
+select {
+background: #eeeeee;
+font-size: 12px;
+text-align: justify;
+}
+
+input[type='text']:hover, textarea:hover, select:hover {
+background: #f5f5f5;
+}
+
+input[type='text']:focus, textarea:focus, select:focus {
+background: #ffffff;
+}
+
+label {
+font-weight: bold;
+float: left;
+}
+
+#message img {
+margin: 0 0 -5px 10px;
+}
+
+#cover {
+width: 100%;
+height: 100%;
+position:fixed;
+background: #000000;
+top: 0;
+left: 0;
+z-index:999999;
+	-moz-opacity: 0.30;
+	opacity:.30;
+	filter: alpha(opacity=30);
+}
+
+/* textarea {
+width: 250px !important;
+height: 175px;
+} */
+
+#set_wrapper {
+
+}
+
+.header_area{
+cursor: pointer;
+/* padding: 2%; */
+background: #ededed;
+border: 1px solid #dddddd;
+margin: 5px auto 0;
+width: 96%;
+/* display: table; */
+}
+
+.open_close {
+float: left;
+display: block;
+padding: 2%;
+}
+
+.header_3{
+
+}
+
+.plus_min {
+width: 32px;
+height: 32px;
+display: inline-block;
+float: left;
+border: 1px solid #808080;
+}
+
+.eps_save_button {
+}
+
+.hide {
+background: #eeeeee url('img/plus.png') no-repeat center center;
+}
+
+.show {
+background: #eeeeee url('img/minus.png') no-repeat center center;
+}
+
+.header_3 h3{
+margin: 0.4em 0.3em !important;
+text-transform: uppercase;
+display: inline-block !important;
+width: auto;
+}
+
+.settings_content {
+display: none;
+}
+
+.submit_button{
+float: right;
+}
+
+.settings_content{
+padding: 0 2%;
+}
+
+.labels_and_input{
+background: #ffffff;
+border: 1px solid #eeeeee;
+padding: 30px 20px;
+}
+
+.help {
+float: right;
+font-size: 11px;
+display: block;
+width: 25%;
+}
+
+.value_help {
+float: left;
+display: block !important;
+/* text-align: justify; */
+}
+
+.clear {
+clear: both;
+}
