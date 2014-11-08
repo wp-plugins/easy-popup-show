@@ -15,6 +15,7 @@ Grow your list faster with Easy Pop Up Show (EPS) wordpress plugin. Easy PopUp S
 Create pop up on your wordpress site/ blog with this free wordpress pop up creator plugin and grow your list faster. 
 
 <strong>Features</strong>
+
 This plugin comes with a default theme which is nice and have many advanced features like:
 
 * Previewer
@@ -26,6 +27,7 @@ This plugin comes with a default theme which is nice and have many advanced feat
 * Built with class (OOP concept).
 
 <strong>More Features For Free</strong>
+
 If you want more `Email Service` integration and some other additional features for FREE, then you can grab it <strong>[here](http://eepurl.com/7juwH "Easy PopUp Show")</strong>. These are some more additional features you can get for free from the page above:
 
 * <strong>Responsive</strong> Style
