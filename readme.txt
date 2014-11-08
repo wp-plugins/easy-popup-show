@@ -1,21 +1,20 @@
 === Plugin Name ===
 Contributors: artheme
 Donate link: http://eepurl.com/7juwH
-Tags: popup, pop up, subscription form, pop over, popover
+Tags: popup, pop up, subscription form, pop over, popover, plugin
 Requires at least: 3.0.1
 Tested up to: 4.0
 Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Easy PopUp Show is an email subscription form pop up creator for wordpress. Grow your list with Easy Pop Up Show (EPS) wordpress plugin.
+Grow your list faster with Easy Pop Up Show (EPS) wordpress plugin. Easy PopUp Show is an email subscription form pop up creator for wordpress.
 
 == Description ==
 
 Create pop up on your wordpress site/ blog with this free wordpress pop up creator plugin and grow your list faster. 
 
 <strong>Features</strong>
-
 This plugin comes with a default theme which is nice and have many advanced features like:
 
 * Previewer
@@ -27,16 +26,15 @@ This plugin comes with a default theme which is nice and have many advanced feat
 * Built with class (OOP concept).
 
 <strong>More Features For Free</strong>
+If you want more `Email Service` integration and some other additional features for FREE, then you can grab it <strong>[here](http://eepurl.com/7juwH "Easy PopUp Show")</strong>. These are some more additional features you can get for free from the page above:
 
-If you want more `Email Service` integration and some other additional features for FREE, then you can grab it [here](http://eepurl.com/7juwH "Easy PopUp Show"). These are some more additional features you can get for free from the page above:
-
-* Responsive Style
-* Font Customization (size, color, font-family, etc.)
-* Mailchimp, Aweber, Constant Contact and Getresponse integration
-* Customize Button Color
-* Add Image To Your Pop Up
-* Pop Up In and Exit Animations
-* Background Overlay Color Customization
+* <strong>Responsive</strong> Style
+* <strong>Font</strong> Customization (size, color, font-family, etc.)
+* <strong>Mailchimp, Aweber, Constant Contact and Getresponse</strong> integration
+* Customize <strong>Button Color</strong>
+* Add <strong>Image</strong> To Your Pop Up
+* Pop Up In and Exit <strong>Animations</strong>
+* <strong>Background Overlay Color</strong> Customization
 
 <strong>Please read the FAQ before you asking any question!</strong>
 
