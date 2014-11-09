@@ -55,6 +55,7 @@ This section will cover about how to install Easy PoPup Show wordpress plugin on
 
 = How Do I Prepare EPS In Order To Make It Working Properly? =
 Make sure that you have integrate the Email Service you are going to use with EPS. Here is a quick step to prepare EPS:
+
 1. In your WP Admin dashboard, go to `Easy PopUp` and then click `Settings` to open the EPS setting page.
 1. Click `GENERAL` tab.
 1. Select `Email Service` provider name.
