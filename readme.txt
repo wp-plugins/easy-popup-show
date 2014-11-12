@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: artheme
 Donate link: http://eepurl.com/7juwH
-Tags: popup, pop up, subscription form, pop over, popover, plugin
+Tags: popup, pop up, subscription form, pop over, popover, plugin, optin, opt-in, shortcode
 Requires at least: 3.0.1
 Tested up to: 4.0
 Stable tag: 0.1
