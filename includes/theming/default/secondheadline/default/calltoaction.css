@@ -1,0 +1,18 @@
+#call_to_act {
+width: 75% !important;
+font-size: 20px !important;
+font-family: Helvetica !important;
+font-style: normal !important;
+font-weight: bold !important;
+text-align: center !important;
+background: #ffffff !important;
+color: #dddddd !important;
+padding: 3px !important;
+margin: 30px auto 0 auto !important;
+border: 1px solid #dddddd !important;
+box-shadow: 0 -2px 2px 2px #eeeeee, 0 5px 30px 0px #eeeeee inset !important;
+-moz-box-shadow: 0 -2px 2px 2px #eeeeee, 0 5px 30px 0px #eeeeee inset !important;
+-webkit-box-shadow: 0 -2px 2px 2px #eeeeee, 0 5px 30px 0px #eeeeee inset !important;
+text-shadow: 1px 1px 2px #ffffff, -1px -1px 2px #ffffff !important;
+line-height: 1.5em !important;
+}

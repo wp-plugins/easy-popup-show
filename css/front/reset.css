@@ -1,0 +1,117 @@
+#eps_popup_front:before, #eps_popup_front:after, #eps_popup_front *:before, #eps_popup_front *:after, #eps_popup_front *, #eps_popup_front, #eps_user_email, #email_form, #headline h1, .epsfront_image img, .eps_img, .eps_img img, .lists, .lists ul, .lists li, .li_text, #eps_user_name, #call_to_act, #short_desc, .tiny_message, .eps_pop_close, #eps_popup_inner, #headline, #email_form_container, #tm_container, #result_message, .success_message, .subscriber_exist, .other_error, #timer_container, .tiny_timer {
+-moz-box-sizing: initial !important;
+-webkit-box-sizing: initial !important;
+box-sizing: initial !important;
+color: initial;
+font-size: 100%;
+opacity: 1;
+word-wrap: initial !important;
+/* font-family: initial; */
+}
+
+#eps_popup_front input {
+display: inline-block;
+height: initial;
+padding: initial;
+margin: 0;
+-moz-box-sizing: border-box !important;
+-webkit-box-sizing: border-box !important;
+box-sizing: border-box !important;
+background: initial;
+	-moz-border-radius: initial;
+	-webkit-border-radius: initial;
+    border-radius: initial;
+}
+
+#eps_user_name::placeholder{
+opacity: 1;
+color: initial !important;
+color: #888888 !important;
+}
+
+#eps_user_name::-moz-placeholder{
+opacity: 1;
+color: initial !important;
+color: #888888 !important;
+}
+
+#eps_user_name::-webkit-input-placeholder{
+opacity: 1;
+color: initial !important;
+color: #888888 !important;
+}
+
+#eps_user_name:-ms-input-placeholder{
+opacity: 1;
+color: initial !important;
+color: #888888 !important;
+}
+
+#eps_user_name:-moz-placeholder{
+opacity: 1;
+color: initial !important;
+color: #888888 !important;
+}
+
+#eps_user_email::placeholder{
+opacity: 1;
+color: initial !important;
+color: #888888 !important;
+}
+
+#eps_user_email::-moz-placeholder{
+opacity: 1;
+color: initial !important;
+color: #888888 !important;
+}
+
+#eps_user_email::-webkit-input-placeholder{
+opacity: 1;
+color: initial !important;
+color: #888888 !important;
+}
+
+#eps_user_email:-ms-input-placeholder{
+opacity: 1;
+color: initial !important;
+color: #888888 !important;
+}
+
+#eps_user_email:-moz-placeholder{
+opacity: 1;
+color: initial !important;
+color: #888888 !important;
+}
+
+/* #eps_popup_front button,
+#eps_popup_front button, */
+#eps_popup_front input[type="button"],
+#eps_popup_front input[type="button"],
+#eps_popup_front input[type="submit"],
+#eps_popup_front input[type="submit"]{
+	cursor: pointer !important;
+	opacity: 1 !important;
+	background: initial !important;
+    border: initial !important;
+    border-radius: initial !important;
+    color: initial !important;
+    display: initial !important;
+    font-family: initial !important;
+    font-size: initial !important;
+    font-weight: initial !important;
+    line-height: initial !important;
+    margin: initial !important;
+    padding: initial !important;
+    text-decoration: initial !important;
+    vertical-align: initial !important;
+    white-space: initial !important;	
+}
+
+#eps_popup_front button:hover,
+#eps_popup_front button:focus,
+#eps_popup_front input[type="button"]:hover,
+#eps_popup_front input[type="button"]:focus,
+#eps_popup_front input[type="submit"]:hover,
+#eps_popup_front input[type="submit"]:focus {
+
+}
