@@ -3,7 +3,7 @@
 Plugin Name: Easy PopUp Show
 Plugin URI: https://www.facebook.com/IndscriptSolution
 Description: Create Wordpress PopUp Easily
-Version: 0.1
+Version: 0.11
 Author: Ari Susanto
 Author URI: https://www.facebook.com/IndscriptSolution
 */
