@@ -3,8 +3,8 @@ Contributors: artheme
 Donate link: http://eepurl.com/7juwH
 Tags: popup, pop up, subscription form, pop over, popover, plugin, optin, opt-in, shortcode
 Requires at least: 3.0.1
-Tested up to: 4.0
-Stable tag: 0.1
+Tested up to: 4.0.1
+Stable tag: 0.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,6 +82,11 @@ You may post any question about EPS in the support forum if you can't find this 
 5. EPS Mailchimp Settings
 
 == Changelog ==
+
+= 0.11 =
+
+* Minor fix
+
 
 = 0.1 =
 
