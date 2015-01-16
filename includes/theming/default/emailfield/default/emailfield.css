@@ -1,0 +1,16 @@
+#eps_user_email {
+width: 35% !important;
+margin:0 2.5% 0 0 !important;
+height: 40px !important;
+border-radius: 10px !important;
+-moz-border-radius: 10px !important;
+-webkit-border-radius: 10px !important;
+box-shadow:0 0 5px 5px #eeeeee inset !important;
+-moz-box-shadow:0 0 5px 5px #eeeeee inset !important;
+-webkit-box-shadow:0 0 5px 5px #eeeeee inset !important;
+border: 1px solid #dddddd !important;
+padding: 0 0 0 10px !important;
+color: #000000 !important;
+font-family: Arial !important;
+font-size: 14px !important;
+}

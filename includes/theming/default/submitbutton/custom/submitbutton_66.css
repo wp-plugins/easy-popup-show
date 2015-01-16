@@ -1,0 +1,47 @@
+#eps_popup_front input[type="submit"]{
+ width: undefinedpx !important;
+ height: undefinedpx !important;
+ padding: 5px !important;
+ display: block !important;
+ float: right !important;
+ font-family: undefined !important;
+ text-align: center !important;
+ text-transform: none !important;
+ border-radius: undefined !important;
+ -moz-border-radius: undefined !important;
+ -webkit-border-radius: undefined !important;
+ color: undefined !important;
+ font-size: undefinedpx !important;
+ font-weight: bold !important;
+ text-shadow: 1px 1px 1px #5b5b5b !important;
+ background: #d28787 !important;
+ background: -moz-linear-gradient(top, #d28787 5%, #f5e9e9 100%) !important;
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #d28787), color-stop(100%, #f5e9e9 )) !important;
+ background: -webkit-linear-gradient(top, #d28787 5%, #f5e9e9 100%) !important;
+ background: -o-linear-gradient(top, #d28787 5%, #f5e9e9 100%) !important;
+ background: linear-gradient(to bottom, #d28787 5%, #f5e9e9 100%) !important;
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#d28787", endColorstr="#f5e9e9",GradientType=0 ) !important;
+ -ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#d28787', endColorstr='#f5e9e9',GradientType=0 )" !important;
+ border: undefinedpx undefined undefined !important;
+ line-height: undefinedpx !important;
+ text-indent: undefinedpx !important;
+ box-shadow: undefined undefined,undefined undefined !important;
+ -moz-box-shadow: undefined undefined, undefined undefined !important;
+ -webkit-box-shadow: undefined undefined, undefined undefined !important;
+}
+
+#eps_popup_front input[type="submit"]:hover{
+ background: -moz-linear-gradient(top, #f5e9e9 5%, #d28787 100%) !important;
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f5e9e9), color-stop(100%, #d28787 )) !important;
+ background: -webkit-linear-gradient(top, #f5e9e9 5%, #d28787 100%) !important;
+ background: -o-linear-gradient(top, #f5e9e9 5%, #d28787 100%) !important;
+ background: linear-gradient(to bottom, #f5e9e9 5%, #d28787 100%) !important;
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f5e9e9", endColorstr="#d28787",GradientType=0 ) !important;
+ -ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5e9e9', endColorstr='#d28787',GradientType=0 )" !important;
+}
+
+#eps_popup_front input[type="submit"]:active{
+ position: relative;
+ top: 1px;
+}
+
