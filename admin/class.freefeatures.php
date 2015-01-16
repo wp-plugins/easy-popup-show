@@ -27,12 +27,12 @@ class epsFreefeatures {
 	}
 	
 	function baseElement() {
-		$features = array("Responsive Style", "Font Customization (size, color, font-family, etc.)", "Mailchimp, Aweber, Constant Contact and Getresponse integration", "Customize Button Color", "Add Image To Your Pop Up", "Pop Up In and Exit Animations", "Background Overlay Color Customization");
+		$features = array("Fully Responsive", "Fully Customizable PopUp Appearance", "Display PopUp By Page/ Post Title, Taxonomy, Category, Tags, Author, Post Format and Post Type", "Font Customization (size, color, font-family, etc.)", "Mailchimp, Aweber, Constant Contact, Getresponse, Wysija, Campaign Monitor, Direct Mail, Infusionsoft, Mad Mimi and Sendy", "Add Image To Your Pop Up", "37 Animations for your Pop Up (In and Exit)", "Background Overlay Color Customization", "Add Shadows To The Wrapper and Text", "Set Your Pop Up Position", "Set The Width and High of Your PopUp", "Change The Border", "More BUTTON Customization, including size, font, shadow, color, border, etc.", "Change the shadow, color, font and size of your PopUp's input fields", "And More...! And It's FREE");
 		?>
-		<div id="more_free" style="border: 1px solid #000000;padding:10px;margin:0 auto 10px  auto;">
+		<div id="more_free" style="padding:10px;">
 		<h3>GET The Following EPS Features For FREE (LIMITED COPY)!</h3>
 		<hr>
-		<table>
+		<table style="border-collapse:collapse;">
 		<tbody>
 		<?php
 		$ff = count($features);
@@ -40,7 +40,7 @@ class epsFreefeatures {
 		
 		?>
 		
-		<tr><td><?php echo $i + 1 . ". "; ?></td><td><b><?php echo $features[$i]; ?></b></td></tr>
+		<tr style="border-collapse:collapse; border:1px solid #000;"><td style="padding:5px;"><?php echo $i + 1 . ". "; ?></td><td style="padding:5px;"><b><?php echo $features[$i] . "."; ?></b></td></tr>
 		
 		<?php
 		
@@ -52,9 +52,6 @@ class epsFreefeatures {
 		<p>
 		<a class="button button-primary button-large" style="margin:0 auto;display:block;text-align:center;width:25%;" href="http://eepurl.com/7juwH" target="_blank">Download Here!</a>
 		</div>
-		<a class="button button-secondary button-large" style="margin:0 auto;display:block;float:left;width:45%;text-align:center;color:#990000;" href="http://codecanyon.net/popular_item/by_category?category=wordpress&ref=QuickCodes" target="_blank"><b>Browse Amazing WP Plugins >></b></a>
-		<a class="button button-secondary button-large" style="margin:0 auto;display:block;float:right;width:45%;text-align:center;color:#990000;" href="http://themeforest.net/popular_item/by_category?category=wordpress&ref=QuickCodes" target="_blank"><b>Browse Amazing WP Themes >></b></a>
-		<div style="clear:both;"></div>
 		<?php
 	}
 

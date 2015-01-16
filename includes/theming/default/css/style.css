@@ -23,7 +23,7 @@
 	-moz-opacity: 1;
 	opacity: 1;
 	filter: alpha(opacity=100);
-	top: 80px !important;
+	
 	box-shadow:0 0 150px 15px #eeeeee inset; 
 	-moz-box-shadow:0 0 150px 15px #eeeeee inset; 
 	-webkit-box-shadow:0 0 150px 15px #eeeeee inset;

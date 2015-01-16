@@ -3,8 +3,8 @@ Contributors: artheme
 Donate link: http://eepurl.com/7juwH
 Tags: popup, pop up, subscription form, pop over, popover, plugin, optin, opt-in, shortcode
 Requires at least: 3.0.1
-Tested up to: 4.0.1
-Stable tag: 0.11
+Tested up to: 4.1
+Stable tag: 0.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,11 +25,6 @@ This plugin comes with a default theme which is nice and have many advanced feat
 * Set redirect url after user successfully subscribe to your list.
 * Limit the number for your pop up to show per day.
 * Built with class (OOP concept).
-
-<strong>More Features For Free</strong>
-
-If you want more `Email Service` integration and some other additional features for FREE, then you can grab it <strong>[here](http://eepurl.com/7juwH "Easy PopUp Show")</strong>. These are some more additional features you can get for free from the page above:
-
 * <strong>Responsive</strong> Style
 * <strong>Font</strong> Customization (size, color, font-family, etc.)
 * <strong>Mailchimp, Aweber, Constant Contact and Getresponse</strong> integration
@@ -37,6 +32,26 @@ If you want more `Email Service` integration and some other additional features 
 * Add <strong>Image</strong> To Your Pop Up
 * Pop Up In and Exit <strong>Animations</strong>
 * <strong>Background Overlay Color</strong> Customization
+
+<strong>MORE FEATURES FOR FREE</strong>
+
+If you want more `Email Service` integration and many others additional features for FREE, then you can grab it <strong>[HERE](http://eepurl.com/7juwH "Easy PopUp Show")</strong>. These are the features you can get for free from the page above:
+
+* Fully Responsive.
+* Fully Customizable PopUp Appearance.
+* <strong>Display PopUp By Page/ Post Title, Taxonomy, Category, Tags, Author, Post Format and Post Type.</strong>
+* Font Customization (size, color, font-family, etc.).
+* Mailchimp, Aweber, Constant Contact, Getresponse, Wysija, Campaign Monitor, Direct Mail, Infusionsoft, Mad Mimi and Sendy.
+* Add Image To Your Pop Up.
+* <strong>37 Animations</strong> for your Pop Up (In and Exit).
+* Background Overlay Color Customization.
+* Add Shadows To The Wrapper and Text.
+* Set Your Pop Up Position.
+* Set The Width and High of Your PopUp.
+* Change The Border.
+* <strong>More BUTTON Customization</strong>, including size, font, shadow, color, border, etc..
+* Change the shadow, color, font and size of your PopUp's input fields.
+* And More...! And It's FREE.
 
 <strong>Please read the FAQ before you asking any question!</strong>
 
@@ -76,12 +91,18 @@ You may post any question about EPS in the support forum if you can't find this 
 == Screenshots ==
 
 1. EPS Pop Up Front End
-2. EPS Pop Up Creator
-3. EPS Settings Page
-4. EPS General Settings
-5. EPS Mailchimp Settings
+2. EPS Pop Up Creator 1
+3. EPS Pop Up Creator 2
+4. EPS Settings Page 
+5. EPS General Settings
+6. EPS Constant Contact Settings
+7. EPS Aweber Settings
 
 == Changelog ==
+
+= 0.12 =
+
+* More and more features
 
 = 0.11 =
 

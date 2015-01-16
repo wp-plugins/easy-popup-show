@@ -14,7 +14,7 @@ $results = $wpdb->get_results( 'SELECT * FROM wp_posts WHERE post_type = "easy_p
 		$cookie = get_post_meta($popid, '_eps_cookie_rule', true);
 		$cookie = strtotime($cookie . 'day', 0);
 		$expiry = get_post_meta($popid, '_eps_cookie_history', true);
-		if(is_array($rules)) {
+		if(is_array($rules)){
 		if(in_array('use_cookies', $rules) && $cookie > 0 && !isset($_COOKIE[$popid . "_eps"])){
 			setcookie($popid . "_eps", "ShowPopUp", time()+$cookie);
 			update_post_meta($popid, '_eps_cookie_history', time()+$cookie);						

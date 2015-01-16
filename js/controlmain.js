@@ -4,41 +4,10 @@ jQuery(document).ready(function($){
 	var z = "}";
 	
 	function buttonStyle(first, second) {
-	var ff = $('#btn_fontfamily').val();
-	var tc = $('#button_text_color').val();
-	var lh = $('#button_line_height').val();
-	var ts = $('#button_text_size').val();
-	var tin = $('#button_text_indent').val();
-	var bftsz = $('#btn_ftshorizontal').val();
-	var bftsc = $('#btn_ftscolor').val();
-	var bstsz = $('#btn_stshorizontal').val();
-	var bstsc = $('#btn_stscolor').val();	
+
 	var bggrt = $('#EPSBtngradienttop').val();
 	var bggrb = $('#EPSBtngradientbottom').val();
-	var w = $('#EPSBtnWidth').val();
-	var h = $('#EPSBtnHeight').val();	
-	var bsize = $('#btn_bsize').val();
-	var bcolor = $('#btn_bcolor').val();
-	var bstyle = $('#btn_bstyle').val();
-	var brds = $('#btn_brTopRight').val();
-	var fbsz = $('#btn_fbshorizontal').val(); 
-	var fbsc = $('#btn_fbscolor').val(); 
-	var sbsz = $('#btn_sbshorizontal').val(); 
-	var sbsc = $('#btn_sbscolor').val(); 
-	/* // */
 	var style = first + a;
-	style += bsize != "" && bcolor != "" && bstyle != "" ? "border: " + bsize + "px " + bstyle + " " + bcolor + " !important;\n" : bsize != "" && bcolor != "" && bstyle == "" ? "border: " + bsize + "px solid " + bcolor + " !important;\n" : "";
-	style += brds != '' ? "border-radius: " + brds + " !important;\n-moz-border-radius: " + brds + " !important;\n-webkit-border-radius: " + brds + " !important;\n" : "";
-	style += w != '' ? "width: " + w + "px !important;\n" : "";
-	style += h != '' ? "height: " + h + "px !important;\n" : "";	
-	style += ff != '' ? "font-family: " + ff + " !important;\n" : "";	
-	style += tc != '' ? "color: " + tc + " !important;\n" : "";
-	style += lh != '' ? "line-height: " + lh + "px !important;\n" : "";
-	style += ts != '' ? "font-size: " + ts + "px !important;\n" : "";
-	style += tin != '' ? "text-indent: " + tin + "px !important;\n" : "";
-	style += $('#button_text_bold').is(':checked') ? "font-weight: bold !important;\n" : "";
-	style += $('#button_text_italic').is(':checked') ? "font-style: italic !important;\n" : "";
-	style += $('#enabletextshadow').is(':checked') ? (bftsz != "" && bftsc != "") && (bstsz == "" || bstsc == "") ? "text-shadow: " + bftsz + " " + bftsc + " !important;\n" : (bftsz != "" && bftsc != "") && (bstsz != "" && bstsc != "") ? "text-shadow: " + bftsz + " " + bftsc + ", " + bstsz + " " + bstsc + " !important;\n" : "" : "";
 	style += bggrt != "" ? "background: " + bggrt + " !important;\n" : bggrb != "" && bggrt == "" ? "background: " + bggrb + " !important;\n" : "";
 	stylehover = "";
 	if(bggrt != "" && bggrb != "") {
@@ -59,50 +28,9 @@ jQuery(document).ready(function($){
 			stylehover += '-ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr=\''+ bggrb +'\', endColorstr=\''+ bggrt +'\',GradientType=0 )" !important;\n';		
 			stylehover += z;
 	}
-	if((fbsz != "" && fbsc != "") && (sbsz == "" || sbsc == "")) {
-		if($("#btn_fbsinset").is(":checked")) {
-		style += "box-shadow: " + fbsz + " " + fbsc + " inset !important;\n";
-		style += "-moz-box-shadow: " + fbsz + " " + fbsc + " inset !important;\n";
-		style += "-webkit-box-shadow: " + fbsz + " " + fbsc + " inset !important;\n";		
-		} else {
-		style += "box-shadow: " + fbsz + " " + fbsc + " !important;\n";
-		style += "-moz-box-shadow: " + fbsz + " " + fbsc + " !important;\n";
-		style += "-webkit-box-shadow: " + fbsz + " " + fbsc + " !important;\n";
-		}
-	} else if((fbsz == "" || fbsc == "") && (sbsz != "" && sbsc != "")) {
-		if($("#btn_sbsinset").is(":checked")) {
-		style += "box-shadow: " + sbsz + " " + sbsc + " inset !important;\n";
-		style += "-moz-box-shadow: " + sbsz + " " + sbsc + " inset !important;\n";
-		style += "-webkit-box-shadow: " + sbsz + " " + sbsc + " inset !important;\n";		
-		} else {
-		style += "box-shadow: " + sbsz + " " + sbsc + " !important;\n";
-		style += "-moz-box-shadow: " + sbsz + " " + sbsc + " !important;\n";
-		style += "-webkit-box-shadow: " + sbsz + " " + sbsc + " !important;\n";
-		}
-	} else if((fbsz != "" && fbsc != "") && (sbsz != "" && sbsc != "")) {
-		if($("#btn_fbsinset").is(":checked") && !$("#btn_sbsinset").is(":checked")) {
-		style += "box-shadow: " + fbsz + " " + fbsc + " inset, " + sbsz + " " + sbsc + " !important;\n";
-		style += "-moz-box-shadow: " + fbsz + " " + fbsc + " inset, " + sbsz + " " + sbsc + " !important;\n";
-		style += "-webkit-box-shadow: " + fbsz + " " + fbsc + " inset, " + sbsz + " " + sbsc + " !important;\n";
-		} else if(!$("#btn_fbsinset").is(":checked") && $("#btn_sbsinset").is(":checked")) {
-		style += "box-shadow: " + fbsz + " " + fbsc + ", " + sbsz + " " + sbsc + " inset !important;\n";
-		style += "-moz-box-shadow: " + fbsz + " " + fbsc + ", " + sbsz + " " + sbsc + " inset !important;\n";
-		style += "-webkit-box-shadow: " + fbsz + " " + fbsc + ", " + sbsz + " " + sbsc + " inset !important;\n";
-		} else if($("#btn_fbsinset").is(":checked") && $("#btn_sbsinset").is(":checked")) {
-		style += "box-shadow: " + fbsz + " " + fbsc + " inset," + sbsz + " " + sbsc + " inset !important;\n";
-		style += "-moz-box-shadow: " + fbsz + " " + fbsc + " inset, " + sbsz + " " + sbsc + " inset !important;\n";
-		style += "-webkit-box-shadow: " + fbsz + " " + fbsc + " inset, " + sbsz + " " + sbsc + " inset !important;\n";
-		} else {
-		style += "box-shadow: " + fbsz + " " + fbsc + "," + sbsz + " " + sbsc + " !important;\n";
-		style += "-moz-box-shadow: " + fbsz + " " + fbsc + ", " + sbsz + " " + sbsc + " !important;\n";
-		style += "-webkit-box-shadow: " + fbsz + " " + fbsc + ", " + sbsz + " " + sbsc + " !important;\n";
-		}
-	}
-	
-	
 	style += z;
 	
-	var third = "\n#eps_popup_front input[type='submit']:active {\nposition:relative;\ntop:1px;\n}";
+	var third = '\n#eps_popup_front input[type="submit"]:active {\nposition:relative;\ntop:1px;\n}';
 	
 	var total = style + stylehover + third;
 	return total;

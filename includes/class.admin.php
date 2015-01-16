@@ -1,11 +1,11 @@
 <?php
 require_once( EPS_BASEDIR . '/admin/class.enqueuestyle.php');
 require_once( EPS_BASEDIR . '/admin/class.popupElements.php');
+require_once( EPS_BASEDIR . '/admin/class.containerStyle.php');
 require_once( EPS_BASEDIR . '/admin/class.shortprev.php');
 require_once( EPS_BASEDIR . '/admin/class.epsSettings.php');
-require_once( EPS_BASEDIR . '/admin/class.save.php');
 require_once( EPS_BASEDIR . '/admin/class.freefeatures.php');
-require_once( EPS_BASEDIR . '/admin/others.php');
+require_once( EPS_BASEDIR . '/admin/class.save.php');
 class epsadminSettings {
 
 	function __construct() {

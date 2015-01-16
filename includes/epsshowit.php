@@ -18,7 +18,10 @@ class epsThemeMaster {
 		'tn' => '',
 		'lt' => ''
 		),	$atts ) );
-
+/* print_r($shortcode_tags);
+	if(array_key_exists("link_eps_pop", $shortcode_tags)){
+	echo "Don't include!";
+	} */
 		$pop_theme = themeData($id, '_eps_popup_theme');
 		$headline = themeData($id, '_eps_first_headline_key');
 		$short_desc = themeData($id, '_eps_short_description_key');
@@ -269,12 +272,20 @@ class epsThemeMaster {
 
 	// BUTTON CSS		
 
-		$btn = 'submitbutton';
+		$btn = 'submitbutton';		
+		$btn_path = '/theming/' . $pop_theme . '/' . $btn . '/custom/submitbutton_' . $id . '.css';
 		
 		$dbtn_path = '/theming/' . $pop_theme . '/' . $btn . '/default/submitbutton.css';
+		
+		$btn_fname = PLUGIN_DIR . $btn_path;
 	
-
+			if(file_exists($btn_fname) && isset($usethis['btn'])) {
+			if($usethis['btn'] != ''){
+		wp_enqueue_style( 'epsfrontPluginStylesheetad', THEME_DIR_URL . $btn_path);
+			}
+			} else {
 		wp_enqueue_style( 'epsfrontPluginStylesheetae', THEME_DIR_URL . $dbtn_path);
+			}	
 		
 		
 	//End BUTTON CSS
@@ -316,7 +327,7 @@ class epsThemeMaster {
 			<input type="hidden" id="eps_animation_out" value="<?php echo $css['out']; ?>" />
 			<?php
 		}
-		
+	wp_enqueue_style( 'epsfrontPluginResponsive', MAIN_DIR_URL . 'css/front/responsive.css');	
 include_once("themes/" . $pop_theme . ".php");
 // return ob_get_clean();	
 	}
